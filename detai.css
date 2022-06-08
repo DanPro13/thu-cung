@@ -1,0 +1,167 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1.5fr;
+    grid-template-rows: 50px 70px 70px 50px;
+}
+div div {
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 3px;
+    color: black;
+    text-align: center;
+}
+.head{
+    grid-column: 1 / -1;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+.d-flex{
+    width: 50%;
+    margin-right: 15%;
+}   
+.check-2{
+    margin-right: -5%;
+}
+.check-4{
+    margin-bottom: -20%;
+}
+.head-link {
+    grid-column: 1 / -1;
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;         
+}
+.set-1{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.set-2{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.set-3{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.set-4{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.table-1{
+  width: 80%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+.rename-1{
+  border: 3px solid whitesmoke;
+}
+.rename-2{
+  border: 1px solid black;
+  color: black;
+  margin-top: 9%;
+  margin-bottom: 20%;
+  font-size: 18px;
+}
+.accordion{
+  width: 40%;
+  margin-left: 27%;
+}
+.cheat-1{
+  text-align: left;
+  margin-left: 2%;
+}
+.picture-1{
+  margin-top: 2%;
+}
+.cheat-2{
+  margin-top: 2%;
+}
+.picture-2{
+  margin-top: 2%;
+}
+.cheat-3{
+  margin-top: 2%;
+}
+.picture-3{
+  margin-top: 2%;
+}
+.picture-4{
+  margin-top: 2%;
+}
+.picture-5{
+  margin-top: 2%;
+}
+.picture-6{
+  margin-top: 2%;
+}
+.picture-7{
+  margin-top: 2%;
+}
+.picture-8{
+  margin-top: 2%;
+}
+.cheat-4{
+  text-align: left;
+  margin-top: 2%;
+}
+.cheat-5{
+  text-align: left;
+  margin-top: 2%;
+}
+.cheat-6{
+  text-align: left;
+  margin-top: 2%;
+}
+.cheat-7{
+  text-align: left;
+  margin-top: 2%;
+}
+.cheat-8{
+  text-align: left;
+  margin-top: 2%;
+}
+.cheat-9{
+  text-align: left;
+  margin-top: 2%;
+}
+.cheat-10{
+  text-align: left;
+  margin-top: 2%;
+}
+.cheat-11{
+  text-align: left;
+  margin-top: 2%;
+}
+.cheat-12{
+  text-align: left;
+  margin-top: 2%;
+}
+.cheat-13{
+  text-align: left;
+  margin-top: 2%;
+}
+.cheat-14{
+  text-align: left;
+  margin-top: 2%;
+}
+div:hover {
+ border: 0px solid black;
+}
+.footer {
+    width: 100%;
+    grid-column: 1/ -1;
+    background-color: wheat;
+    border: 1px solid black;
+    margin-left: 0%;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 1%;
+}
